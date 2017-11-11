@@ -70,13 +70,13 @@ canvas.pack()
 tk.update()
 
 paddle = Paddle(canvas, 'blue')
-ball= Ball(canvas, 'red')
+ball = Ball(canvas, 'red')
 
 while 1:
     if ball.hit_bottom == False:
         ball.draw()
         paddle.draw()
-    tk.update_idletasks()
-    tk.update()
-    time.sleep(0.01)
+        tk.update_idletasks()
+        tk.update()
+        time.sleep(0.01)
 
