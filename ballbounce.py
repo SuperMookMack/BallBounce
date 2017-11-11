@@ -61,7 +61,7 @@ class Paddle:
                 self.x = 2
 
 
-tk = TK()
+tk = Tk()
 tk.title("Game")
 tk.resizable(0, 0)
 tk.wm_attributes("-topmost", 1)
