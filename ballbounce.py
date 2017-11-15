@@ -3,7 +3,7 @@ import random
 import time
 
 class Ball:
-    def __init__(self, canvas, color):
+    def _init_(self, canvas, color):
         self.canvas = canvas
         self.id = canvas.create_oval(10, 10, 25, 25, fill=color)
         self.canvas.move(self.id, 245, 100)
@@ -37,7 +37,7 @@ class Ball:
             self.x = -3
 
 class Paddle:
-    def __init__(self, canvas, color):
+    def _init_(self, canvas, color):
         self.canvas 
         self.id = canvasself.id = canvas.create_rectangle(0, 0, 100, 10, fill=color)
         self.canvas.move(self.id, 200, 300)
